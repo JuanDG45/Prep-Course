@@ -1,0 +1,54 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo
+estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu
+comprensión.
+
+* `for`
+* `&&`, `||`, `!`
+
+R// for:
+
+For es un statement que se utiliza para crear bucles, para que el for funcione debemos colocar el siguiente enunciado:
+
+function saludo(n){
+
+  for (var i = 0; i < n; i++){
+    //bloque de codigo
+  }
+
+Identificamos el enunciado "var i = 0", el "i < n" y el "i++".
+
+El var se utiliza para asignar la variable "i "que vendría siendo nuestro contador,
+podemos ponerle el valor inicial que queramos, usualmente se comienza en el número
+0 o 1.
+
+El "i < n" se utiliza para que el bucle tenga un final, la variable n se le puede asignar un valor,
+y el bucle se terminará cuando el valor de "i" sea mayor o igual a "n"
+
+El i++ es para que el valor vaya aumentando en 1 cada vez que el bucle se repita, de manera que
+en algún momento el valor de "i" sea mayor o igual a "n", en ese momento el bucle se termina.
+
+Después al for se le puede agregar otras condicionales como "if" de manera que el comportamiento
+o los resultados del bucle se modifiquen como nosotros queramos
+
+
+&&:
+
+Se utiliza en los "statement" para unir dos o más condicionales, el statement solo será verdadero si
+todas las condicionales se cumplen, si una de ellas o todas son falsas, el statement retornará un valor
+falso.
+
+||:
+
+Se utiliza en los "statement" para presentar dos o más condicionales, en este caso, uno de ellos
+puede ser falso y aún así se cumpliría la condicional, retornaría un valor falso unicamente si
+las todas las condiciones son falsas.
+
+!:
+
+Se utiliza en los "statement" como una negación
+
+Ejemplo:
+
+var i = 6
+(i != 4)= Verdadero, porque i no es igual a 5, sino a 6
+(i != 6)= falso, porque i si es igual a 6, no se puede negar que i es igual a 6
